@@ -106,7 +106,7 @@ console.group('switch case - task 4');
         case day > 10 && day <= 20:
             console.log(`Day ${day} is in a second decade`);
             break;    
-        case day <= 30:
+        case day <= 31:
             console.log(`Day ${day} is in a third decade`);
             break;
         default:
